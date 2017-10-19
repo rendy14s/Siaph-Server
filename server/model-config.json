@@ -34,5 +34,57 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Acl": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Accesstoken": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Rolemapping": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphDepthrole": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphDocuments": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphDocumentslibrary": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphNoteddocuments": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphTrackingdocuments": {
+    "dataSource": "siaph-tangsel",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "SiaphUsercredential": {
+    "dataSource": "siaph-tangsel",
+    "public": true
   }
 }
