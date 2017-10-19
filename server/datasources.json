@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "siaph-tangsel": {
+    "host": "103.16.199.130",
+    "port": 3306,
+    "url": "",
+    "database": "serverpr_siaph",
+    "password": "5ervpr1m4",
+    "name": "siaph-tangsel",
+    "user": "serverprima",
+    "connector": "mysql"
   }
 }

@@ -2,8 +2,14 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var bodyParser = require('body-parser');
 
 var app = module.exports = loopback();
+app.use(bodyParser.json({limit: '5mb'}));
+app.use(bodyParser.urlencoded({limit: '5mb'}));
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+process.env.NODE_ENV = "production";
 
 app.start = function() {
   // start the web server
