@@ -58,6 +58,22 @@
       },
       "_selectable": false
     },
+    "notesDoc": {
+      "type": "String",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "notes_doc",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "idNoted": {
       "type": "Number",
       "id": true,

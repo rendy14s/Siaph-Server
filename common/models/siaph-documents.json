@@ -42,6 +42,22 @@
       },
       "_selectable": false
     },
+    "toDoc": {
+      "type": "String",
+      "required": true,
+      "length": 225,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "to_doc",
+        "dataType": "varchar",
+        "dataLength": 225,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "dateDoc": {
       "type": "Date",
       "required": true,
@@ -50,22 +66,6 @@
       "scale": null,
       "mysql": {
         "columnName": "date_doc",
-        "dataType": "date",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "acceptDateDoc": {
-      "type": "Date",
-      "required": true,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "accept_date_doc",
         "dataType": "date",
         "dataLength": null,
         "dataPrecision": null,
@@ -106,22 +106,6 @@
       },
       "_selectable": false
     },
-    "notesDoc": {
-      "type": "String",
-      "required": true,
-      "length": 65535,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "notes_doc",
-        "dataType": "text",
-        "dataLength": 65535,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "createDateDoc": {
       "type": "Date",
       "required": true,
@@ -130,7 +114,7 @@
       "scale": null,
       "mysql": {
         "columnName": "create_date_doc",
-        "dataType": "date",
+        "dataType": "datetime",
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
