@@ -12,5 +12,11 @@
     "name": "siaph-tangsel",
     "user": "serverprima",
     "connector": "mysql"
+  },
+  "SiaphContainer": {
+    "name": "SiaphContainer",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./storage"
   }
 }
