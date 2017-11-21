@@ -56,6 +56,51 @@ module.exports = function (Siaphdocuments) {
 
 
     /**
+     * Find Data All Documents
+     */
+    Siaphdocuments.remoteMethod(
+        'getDataDocumentAll', {
+            accepts: [{
+                arg: 'params',
+                type: 'Object',
+                required: true,
+                http: { source: 'body' }
+            }, {
+                arg: "options",
+                type: "object",
+                http: "optionsFromRequest"
+            }],
+            returns: {
+                arg: 'getDataDocumentAll', type: 'array', root: true
+            },
+            http: {
+                path: '/getDataDocumentAll',
+                verb: 'post'
+            }
+        });
+
+    Siaphdocuments.getDataDocumentAll = function (params, options, cb) {
+        console.log(params, 'Params');
+        if (params !== null && params !== undefined) {
+            Siaphdocuments.find({
+                 limit: params.limit
+            }, function (err, dataGet) {
+
+                // console.log('Data', dataGet);
+                if (err) {
+                    cb(err);
+                    console.log(err, 'Errornya');
+                } else {
+                    cb(null, dataGet);
+                }
+            });
+        } else {
+            console.log('Data Params Kosong');
+        }
+    }
+
+
+    /**
      * Notifikasi Success Create Disposisi Letter
      */
     // Siaphdocuments.afterRemote('create', function (ctx, modelInstance, next) {
