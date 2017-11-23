@@ -76,7 +76,7 @@
     },
     "noAgendaDoc": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 150,
       "precision": null,
       "scale": null,
@@ -86,7 +86,7 @@
         "dataLength": 150,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "N"
+        "nullable": "Y"
       },
       "_selectable": false
     },
