@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "siaph-tangsel": {
-    "host": "103.16.199.130",
+    "host": "202.46.5.12",
     "port": 3306,
     "url": "",
-    "database": "serverpr_siaph",
-    "password": "5ervpr1m4",
+    "database": "SERVER-SIAPH",
+    "password": "jdihdb::2017",
     "name": "siaph-tangsel",
-    "user": "serverprima",
+    "user": "siaph",
     "connector": "mysql"
   },
   "SiaphContainer": {
