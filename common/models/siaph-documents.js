@@ -30,7 +30,7 @@ module.exports = function (Siaphdocuments) {
         });
 
     Siaphdocuments.getDataDocument = function (params, options, cb) {
-        // console.log(params, 'Params Find');
+        console.log(params, 'Params Find');
         if (params !== null && params !== undefined) {
             Siaphdocuments.find({
                 where: {
