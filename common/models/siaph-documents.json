@@ -44,7 +44,7 @@
     },
     "toDoc": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 225,
       "precision": null,
       "scale": null,
@@ -54,7 +54,7 @@
         "dataLength": 225,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "N"
+        "nullable": "Y"
       },
       "_selectable": false
     },
