@@ -83,7 +83,8 @@ module.exports = function (Siaphdocuments) {
         console.log(params, 'Params');
         if (params !== null && params !== undefined) {
             Siaphdocuments.find({
-                 limit: params.limit
+                 limit: params.limit,
+                 order: params.order,                 
             }, function (err, dataGet) {
 
                 // console.log('Data', dataGet);
