@@ -38,7 +38,7 @@ module.exports = function (Siaphdocuments) {
                         { fromDoc: params.fromDoc },
                         { toDoc: params.toDoc }
                     ]
-                }, limit: 10
+                }
             }, function (err, dataGet) {
 
                 // console.log('Data', dataGet);
